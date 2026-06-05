@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+__MACOSX/
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated/local experiment files
+data/
+indexes/
+outputs/
+runs/
