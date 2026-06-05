@@ -129,6 +129,8 @@ The full source documents are **not redistributed** in this repository or in the
 │       └── eval_adversarial.py
 │
 ├── requirements.txt
+├── requirements-preprocessing.txt
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
@@ -153,7 +155,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-The core requirements are sufficient for loading the dataset, running retrieval code, running generation/evaluation scripts, and using the repository smoke test.
+The core requirements are sufficient for loading the dataset and running the retrieval, generation and evaluation scripts.
 
 Optional PDF/document preprocessing dependencies are separated because they are heavier:
 
@@ -192,7 +194,7 @@ The `qfr_datasets/` directory can be downloaded from Hugging Face. The `data/raw
 The preprocessing scripts are located in:
 
 ```text
-preprocessing/
+preprocessing/qfr_dataset/
 ```
 
 These scripts were used to process source documents, normalize text, and create section-aware corpus chunks.
