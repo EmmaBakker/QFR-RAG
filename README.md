@@ -543,11 +543,28 @@ The dataset license applies only to the released QFR-RAG dataset files, such as 
 
 The original QFR source documents are not redistributed in this repository or in the Hugging Face dataset.
 
+
 ## Citation
 
-A citation will be added once the associated QFR-RAG paper is publicly available.
+If you use QFR-RAG in your research, please cite our paper:
 
-If you use this repository or dataset before the paper is available, please cite the GitHub repository and Hugging Face dataset URL.
+**Bakker, E., Lupart, S., Borsos, B., and Papp, D. (2026).** QFR-RAG: A Multi-Level Evaluation Resource for Grounded RAG over Technical-Medical Documentation. *Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26).* ACM.
+
+**Paper:** https://doi.org/10.1145/3799682.3840207
+
+### BibTeX
+
+```bibtex
+@inproceedings{bakker2026qfrrag,
+  author    = {Emma Bakker and Simon Lupart and Balazs Borsos and Dorottya Papp},
+  title     = {{QFR-RAG}: A Multi-Level Evaluation Resource for Grounded {RAG} over Technical-Medical Documentation},
+  booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26)},
+  year      = {2026},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/3799682.3840207},
+  url       = {https://doi.org/10.1145/3799682.3840207}
+}
+```
 
 ## Author
 
